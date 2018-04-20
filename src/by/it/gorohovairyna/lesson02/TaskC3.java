@@ -43,9 +43,9 @@ class TaskC3 {
         double j = 3.86;
         double n = j / i;
         double a = weight * n;
-        g = DecimalFormat(a).setScale(2).doubleValue();
+        double g = Math.round(a*100)/100;
         return g;
 
-        System.out.print(g); //выводит результат на экран
+        //System.out.print(g); //выводит результат на экран
     }
     }

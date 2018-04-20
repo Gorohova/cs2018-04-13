@@ -45,6 +45,7 @@ class TaskC3 {
         double a = weight * n;
         g = DecimalFormat(a).setScale(2).doubleValue();
         return g;
+
+        System.out.print(g); //выводит результат на экран
     }
-     System.out.print(weight); //выводит результат на экран
     }

@@ -1,5 +1,8 @@
 package by.it.gorohovairyna.lesson02;
 
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
 /*
 Ускорение свободного падения на Земле и Марсе таково:
 Марс   3,86
@@ -30,5 +33,18 @@ package by.it.gorohovairyna.lesson02;
 
 */
 class TaskC3 {
+    public static void main(String[] args) {
+        Scanner f = new Scanner(System.in);
+        int weight = f.nextInt();
+    }//считывает вес человека на Земле в кг с клавиатуры
 
-}
+    public static double getWeight(int weight) {
+        double i = 9.81;
+        double j = 3.86;
+        double n = j / i;
+        double a = weight * n;
+        g = DecimalFormat(a).setScale(2).doubleValue();
+        return g;
+    }
+     System.out.print(weight); //выводит результат на экран
+    }

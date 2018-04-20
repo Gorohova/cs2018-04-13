@@ -33,19 +33,21 @@ import java.util.Scanner;
 
 */
 class TaskC3 {
+    static double getWeight(int weight) {
+        double i = 9.81;
+        double j = 3.86;
+        double n = j / i;
+        double a = weight * n;
+        double g = Math.round(a * 100) / 100.0;
+        return g;
+    }
+
     public static void main(String[] args) {
         Scanner f = new Scanner(System.in);
-        int k=f.nextInt();
-    }//считывает вес человека на Земле в кг с клавиатуры
-
-    static double getWeight(int weight) {
-        double i=9.81;
-        double j=3.86;
-        double n=j/i;
-        double a= weight*n;
-        g=Math.round(a*100)/100.0;
-        return g;
-        double p=getWeight(k);
+        int k = f.nextInt();//считывает вес человека на Земле в кг с клавиатуры
+        double p = getWeight(k);
         System.out.println(p); //выводит результат на экран
     }
-    }
+
+
+}

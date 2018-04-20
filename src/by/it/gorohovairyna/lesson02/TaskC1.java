@@ -16,8 +16,7 @@ class TaskC1 {
             Scanner f = new Scanner(System.in);
             int number1 = f.nextInt();//считывает первое число и присваивает значение в number1
             int number2 = f.nextInt();//считывает второе число и присваивает значение в number2
-               int number3 = 34;
-            System.out.print(number1 + number2 - number3);//выводит сумму number1 + number2
+            System.out.println("Sum = "+(number1 + number2));//выводит сумму number1 + number2
 
         }
     }

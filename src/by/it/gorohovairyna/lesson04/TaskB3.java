@@ -25,7 +25,18 @@ package by.it.gorohovairyna.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        int s=scanner.nextInt();
+        int sum=0;
+        int n=1;
 
-}
+        while (sum < s; n++; );   {
+            System.out.print(sum + "," + " ");
+        }
+
+            }
+    }

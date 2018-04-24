@@ -47,8 +47,8 @@ class TaskB2 {
 
         if (d > 0) {
             double x1, x2;
-            x1 = (-b - Math.sqrt(d)) / (2 * a);
-            x2 = (-b + Math.sqrt(d)) / (2 * a);
+            x1 = (-b - Math.sqrt(d)) / (2.0 * a);
+            x2 = (-b + Math.sqrt(d)) / (2.0 * a);
             System.out.println( x1 + " " + x2);
         }
         if (d == 0) {

@@ -34,9 +34,9 @@ public class TaskB3 {
         int sum=0;
         int n=1;
 
-        while (sum < s; n++; );   {
-            System.out.print(sum + "," + " ");
-        }
+       // while (sum < s; n++; );   {
+           // System.out.print(sum + "," + " ");
+        //}
 
             }
     }
